@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int k1,k2=0;
+    printf("enter the any number:");
+    scanf("%d",&k1);
+    for(int i=1;i<=k1;i++)
+    {
+     k2=k1%2;
+    }
+        if(k2==1)
+        {
+           
+            printf("%d is the prime number",k1);
+        }
+        else
+        {
+            printf("%d is not the prime number",k1);
+        }
+}
+
