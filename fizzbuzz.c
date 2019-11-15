@@ -1,29 +1,19 @@
-#include <stdio.h>
-
 int main()
 {
-    int fizz,buzz,i;
-    printf("enter the value:");
-    scanf("%d",&i);
-    if(i%5==0)
-    {
-      printf("buzz");
-      if(i%3==0)
-       {
-           printf("\nfizzbuzz");
-       }
-     }
-    else if(i%3==0)
-    {
-        printf("buzz");
-        if(i%5==0)
-    {
-      printf("buzz");
-    }
-    }
-    else
-    {
-        printf("%d",i);
-    }
+   int no,number;
+   scanf("%d",&no);
+    number_compare(no);
     return 0;
+}
+int number_compare(int number)
+{
+   if(number%3==0&&number%5==0)
+   printf("fizzbuzz");
+   else if(number%5==0)
+   printf("buzz");
+   else if(number%3==0)
+   printf("fizz");
+   else
+   printf("%d",number);
+   
 }
