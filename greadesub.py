@@ -1,3 +1,4 @@
+
 m1=float(input("enter maths mark:"))
 m2=float(input("enter physics mark:"))
 m3=float(input("enter chemistry mark:"))
